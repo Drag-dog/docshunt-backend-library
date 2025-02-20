@@ -1,0 +1,13 @@
+root = true
+
+[{*.kt,*.kts}]
+max_line_length = 140
+ij_kotlin_name_count_to_use_star_import = 5
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+ij_kotlin_imports_layout = java.**, javax.**, kotlin.**, kotlinx.**, *, network.kroma.**, ^
